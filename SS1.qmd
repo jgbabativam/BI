@@ -22,7 +22,7 @@ revealjs-plugins:
 
 <div style="text-align: justify;">
 
-PhD en Estadística, MSc en Analytics & Big Data, MSc en Estadística. Con 20 años de experiencia, actual director de analítica en el CNC, miembro del comité de expertos en pobreza en el DANE y consultor de la División de Estadística de la CEPAL. Ex-decano de la Facultad de Estadística USTA, ex-director de operaciones en el ICFES,...
+PhD en Estadística, MSc en Analytics & Big Data, MSc en Estadística. Con 20 años de experiencia, actual director de analítica en el CNC, miembro del comité de expertos en pobreza en el DANE y consultor de la División de Estadística de la CEPAL. Ex-decano de la Facultad de Estadística USTA, ex-director de operaciones en el ICFES, PM CEV ...
 
 > Puedes encontrarme en:
 
@@ -225,7 +225,120 @@ Estaremos hablando de conceptos, técnicas y herramientas que constituyen el sop
   [![Haz clic para ver el video](images/transforma.jpg)](https://www.youtube.com/watch?v=FBmWaxir8Dg)
 </div>
 
+## Transformación digital
 
+
+![](images/musica.jpg){fig-align="center" width="100%"}
+
+## Transformación digital
+
+
+![](images/airbnb.png){fig-align="center" width="100%"}
+
+Visión digital… repensar el negocio 
+
+## Transformación digital
+
+
+![](images/ECONOMIA.png){fig-align="center" width="100%"}
+
+
+## Abundancia de datos
+
+<div style="position: absolute; top: 0.7; left: 0; width: 100%; height: 100%; background-image: url('images/ola2.gif'); background-size: cover; background-position: center;">
+</div>
+
+## Hype Cycle for Emerging Technologies
+
+![](images/GARTNER2.png){fig-align="center" width="100%"}
+
+## Aspectos clave: Adopción, madurez y aplicación
+
+<div style="text-align: justify; font-size: 22px;">
+
+- Eje X (Tiempo): Representa las etapas por las que pasa una tecnología desde su descubrimiento hasta su adopción generalizada o abandono.
+- Eje Y (Expectativas): Refleja el nivel actual de expectativas o entusiasmo en torno a esa tecnología.
+
+**Fases**
+
+- **Innovation Trigger (Desencadenante de Innovación)**: Marca el inicio de una tecnología emergente donde las expectativas empiezan a crecer debido a anuncios y primeros prototipos.
+
+- **Peak of Inflated Expectations (Pico de Expectativas Infladas)**: La tecnología recibe una gran atención mediática, generando entusiasmo exagerado. 
+
+- **Trough of Disillusionment (Valle de Desilusión)**: La tecnología no cumple con las expectativas iniciales, y muchas empresas abandonan sus esfuerzos. Solo los jugadores más comprometidos continúan refinando la tecnología.
+
+- **Slope of Enlightenment (Pendiente de Iluminación)**: La comprensión sobre la utilidad real de la tecnología comienza a aumentar. 
+
+- **Plateau of Productivity (Meseta de Productividad)**: La tecnología alcanza su madurez, demostrando beneficios concretos.
+
+**Convenciones**: Gartner suele incluir una estimación del tiempo que falta para que la tecnología alcance la madurez.
+
+</div>
+
+
+## Definiciones tradicionales
+
+![](images/bigdata.png){fig-align="center" width="100%"}
+
+## Definiciones tradicionales
+
+![](images/bigdata2.png){fig-align="center" width="80%"}
+
+## Definiciones tradicionales
+
+![](images/bigdata3.png){fig-align="center" width="100%"}
+
+## Definiciones tradicionales
+
+Big Data se asocia con:
+
+* Grandes volúmenes de datos.
+* Análisis de redes sociales.
+* Datos en tiempo real.
+* Datos complejos de diferentes tipos
+* Se generan a gran velocidad.
+
+Se requiere que las técnicas de analítica permitan descubrir información útil en tiempos razonables.
+
+# Herramientas de BI {background-color="#0077b6"}
+
+## Lenguajes, librerías y herramientas
+
+![](images/Lenguajes.png){fig-align="center" width="100%"}
+
+## Análisis exploratorio
+
+::: {.columns}
+:::: {.column width="40%"}
+
+<br><br>
+
+1. Tipos de variables.
+2. Visualizar los datos
+3. Identificar relaciones
+4. Datos atípicos
+5. Datos faltantes
+
+![](images/explor.png){fig-align="center" width="50%"}
+::::
+
+:::: {.column width="60%"}
+![](images/EDA.jpeg)
+:::: 
+:::
+
+## Visualización
+
+![](images/herramientasBI.png){fig-align="center" width="100%"}
+
+## Requisitos
+
+* Instalar R y R-Studio: [Ver video](https://youtu.be/TKplIIwwdEk) 
+* Instalar Power BI de escritorio: [Ver video](https://youtu.be/Cfp9-0ivd54)
+* Instalar tableau de escritorio
+* Abra una cuenta en ChatGPT
+
+# Empecemos con R {background-color="#0077b6"}
 
 ## Proceso de analítica
 
@@ -247,7 +360,7 @@ knitr::include_graphics(here::here("images/Ciclo.png"))
 
 * Tiene todos los métodos que necesitamos
 
-* Incluye paquetes específicos en muestreo como `TeachingSampling`, `samplesize4surveys`, `survey`, `srvyr`, `sampling`, etc
+* Incluye paquetes específicos para la visualización como `ggplot2`, `Plotly`, `esquisse`, `tidyplots`,  etc
 
 :::
 
@@ -265,6 +378,23 @@ knitr::include_graphics(here::here("images/Ciclo.png"))
 
 ![](images/Homerostats.jpeg){fig-align="center"}
 
+## Paquete estadístico
+
+![](images/inicioR.png){fig-align="center" width="50%"}
+
+[Arte de Allison Horst](https://allisonhorst.com/)
+
+## R y R-Studio
+
+![](images/rstudio.jpg){fig-align="center" width="70%"}
+
+[Arte de Allison Horst](https://allisonhorst.com/)
+
+
+## Trabajando en R
+
+![](images/trabR.png){fig-align="center"}
+
 ## El entorno `tidyverse`
 
 ![](images/tidyverse.png){fig-align="center"}
@@ -273,854 +403,538 @@ knitr::include_graphics(here::here("images/Ciclo.png"))
 
 ![](images/tidyverse2.png){fig-align="center"}
 
+## Ejemplo DataViz
 
-# ANTECEDENTES Y JUSTIFICACIÓN {background-color="#0077b6"}
+<br><br>
 
-## Sir Francis Galton (1822-1911)
+```{r}
+#| echo: true
 
-::: columns
-::: {.column width="70%"}
+library(pacman)
+p_load(tidyverse, gganimate, gapminder, gifski, libpng, ImageMagick)
 
-::: {.incremental}
+datos <- gapminder |> 
+         filter(year >= 1952) |> 
+         mutate(poblacion = pop / 1e6)
 
-<div style="text-align: justify;">
+paises_interes <- c("Colombia", "United States", "China", "India", "Nigeria")
 
-* **Galton** hizo importantes contribuciones en muchos campos de la ciencia, incluyendo la meteorología (mapas meteorológicos), la estadística (regresión y correlación), la psicología (sinestesia), la biología (mecanismo de la herencia) y la criminología (huellas dactilares).
+```
 
-* Fue el primero en introducir el uso de cuestionarios y encuestas para recopilar datos sobre comunidades humanas.
+<br>
+
+Explore el conjunto de datos
+
+## Ejemplo DataViz
+
+```{r}
+#| echo: true
+
+plot <- ggplot(datos, aes(x = gdpPercap, y = lifeExp, size = poblacion, color = continent)) +
+        geom_point(alpha = 0.7, show.legend = TRUE) +
+        geom_text(data = datos |> filter(country %in% paises_interes), 
+                  aes(label = country), size = 4, vjust = -1, hjust = 0.5, color = "black", alpha = 0.8) +
+        scale_x_log10(labels = scales::dollar_format(prefix = "$")) +
+        scale_y_continuous(labels = scales::comma) +
+        labs(title = "Relación entre PIB per cápita y la esperanza de vida",
+             subtitle = "Año: {frame_time}",
+             x = "PIB per cápita (log10)",
+             y = "Esperanza de vida",
+             size = "Población (millones)",
+             color = "Continente") +
+         theme_minimal(base_size = 14) +
+         theme(legend.position = "bottom") +
+         transition_time(year) +
+         ease_aes('linear')
+
+#anim <- animate(plot, fps = 20, duration = 10, width = 800, height = 600, renderer = gifski_renderer())
+#anim_save("gapminder_animation.gif", anim)
+```
+
+## 
+
+![](gapminder_animation.gif){fig-align="center" width="80%"}
+
+# IA y Programación {background-color="#0077b6"}
+
+## La etapa de la frustración
+
+```{r, out.width= '100%', fig.align='center'}
+knitr::include_graphics(here::here("images/errorR.png"))
+```
+[Arte de Allison Horst](https://allisonhorst.com/)
+
+## La IA como herramienta
+
+:::: {.columns}
+
+::: {.column width="60%"}
+<div style="margin-top: 0.5cm"></div>
+
+Estamos en un mundo de constante evolución, ¿la IA nos va a reemplazar?
+
+- Enviar una carta en papel por correo
+- Pedir un domicilio por teléfono
+- Solicitar un taxi por teléfono
+- Orientarse en una ruta con un mapa de papel 
+
+<br><br>
+@tiangolo
+
+:::
+
+::: {.column width="3%"}
+<!-- columna vacía para crear un espacio -->
+:::
+
+::: {.column width="37%"}
+
+<div style="margin-top: 1.0cm"></div>
+
+![Imagen de Caracol Radio](images/OperaTaxis.jpg){fig-align="left" style="font-size: 16px;"}
+
+:::
+
+::::
+
+## GPT y Modelos LLMs
+
+El GPT (Generative Pre-trained Transformer) es un modelo de LLM (Large Language Model). Mientras que GPT-3 usaba 175 MM de parámetros usando modelos soportados en texto, GPT-4 usa 100 BN de parámetros usando modelos soportados en texto e imágenes.
+
+. . . 
+
+```{r,  out.width= '48%', fig.align='center', dpi=300}
+knitr::include_graphics(here::here("images/IA_ChatGPT.jpg"))
+```
+
+## Instrucciones 
+
+No pretenda que todo ocurra en un solo paso, a veces se obtienen mejores resultados precisando un _prompt_ en cada paso.
+
+. . . 
+
+```{r,  out.width= '80%', fig.align='center', dpi=300}
+knitr::include_graphics(here::here("images/ChatGPT.jpeg"))
+```
+
+
+@mdancho84
+
+## Herramientas
+
+- https://rtutor.ai/
+- https://www.codeconvert.ai/r-to-python-converter
+- ChatGPT
+- Copilot
+- Gemini
+- . . .
+
+## Ejemplo
+
+Escriba el siguiente _prompt_ en ChatGPT y transcriba el código a R:
+
+<br><br> 
+
+_"use el paquete osm de R para crear un mapa y la base de datos de droguerias en bogotá, luego use mapview para visualizar las droguerias"_
+
+## Necesidades de información
+
+<br><br> 
+
+![](images/tesla.png){fig-align="center"}
+
+## Necesidades de información
+
+<br><br> 
+
+![](images/tesla2.png){fig-align="center"}
+
+## Velocidad, Veracidad, Variedad, ...
+
+<br><br> 
+
+![](images/tesla3.png){fig-align="center"}
+
+## Modelo TESLA
+
+<br><br> 
+
+![](images/tesla4.png){fig-align="center"}
+
+## Modelo TESLA
+
+![](images/tesla5.png){fig-align="center"}
+
+## Modelo TESLA
+
+![](images/tesla6.png){fig-align="center"}
+
+## Impacto de la IA
+
+[![](images/impacto.png)](https://www.mdpi.com/2075-4698/15/1/6)
+
+<div style="text-align: justify; font-size: 24px;">
+
+El uso frecuente de herramientas de IA está determinando nuestras habilidades cognitivas, fenómeno llamado _"descarga cognitiva"_, este fenomeno afecta negativamente nuestra capacidad de pensamiento crítico. La investigación revela que los jóvenes de 17 a 25 años son los más afectados, en comparación con los mayores de 46 años.
 
 </div>
 
-:::
+## Experiencias
 
-:::
-
-::: {.column width="30%"}
-
-<br>
-
-![](images/Galton.jpeg){fig-align="center" fig-alt="R logo" width="80%"}
-
-:::
-
-:::
-
-
-## Jerzy Neyman (1894-1981)
 
 ::: columns
-::: {.column width="70%"}
+::: {.column width="60%"}
 
 ::: {.incremental}
 
-<div style="text-align: justify;">
+<br>
 
-* Introdujo las reglas de probabilidad en la selección de muestras.
+* Procesos de codificación 
+* Encuestas telefónicas
+* Observatorio nutricional
+* Rating - RPD
 
-* Neyman, J.(1934). On the two different aspects of the representative method: The method of stratified sampling and the method of purposive selection, Journal of the Royal Statistical Society: Series B, 97 (4), 557–625.
+:::
+
+:::
+
+::: {.column width="40%"}
+
+![](images/nutricion.jpg){fig-align="center" width="100%"}
+
+:::
+
+:::
+
+
+## Material recomendado
+
+Modelos de IA generativa: [https://www.futureofai.mit.edu/](https://www.futureofai.mit.edu/)
+
+* ChatGPT
+* Stable-Diffusion & Dall-E
+* Neural Networks
+* Supervised Learning
+* Representation & Unsupervised Learning
+* Reinforcement Learning
+* Generative AI ...
+
+## Material recomendado (español)
+
+<br>
+
+* [Introduction to Generative AI (45 minutos)](https://www.cloudskillsboost.google/course_templates/536) 
+* [Encoder-Decoder Architecture (2.5 horas)](https://www.cloudskillsboost.google/course_templates/543)
+* [Transformer Models and BERT Model (2 horas)](https://www.cloudskillsboost.google/course_templates/538)
+* [Create Image Captioning Models (2 horas)](https://www.cloudskillsboost.google/course_templates/542)
+* [Introduction to Vertex AI Studio (2 horas)](https://www.cloudskillsboost.google/course_templates/552)
+
+
+# FUNDAMENTOS DEL DATA VIZ {background-color="#0077b6"}
+
+## Elementos clave
+
+
+* **Tipografía**: Seleccione fuentes apropiadas, limitándose a 2-3 y siendo consistente en su uso.
+* **Contraste**: Utilizar contraste (claro/oscuro, grande/pequeño, grueso/delgado) para resaltar y enfatizar.
+* **Color**: Usar el color para enfatizar o reforzar valores, evitando el uso excesivo de colores que pueda distraer.
+* **Balance**: Asegurar que el diseño sea visualmente equilibrado para que sea agradable y destaque la información importante.
+* **Jerarquía**: Proporcione pistas visuales sobre la parte más importante del mensaje.
+
+## Elementos clave
+
+* **Despejar el gráfico**: Elimine líneas, bordes y marcas de verificación innecesarias para evitar distracciones.
+* **Títulos y etiquetas con propósito**: Ser claro y conciso en los títulos y usar etiquetas de datos con moderación.
+* **Usar el eje completo comenzando en cero** para evitar malinterpretaciones de los datos.
+* **Evite gráficos de pastel** especialmente para comparaciones, ya que son difíciles de interpretar visualmente.
+
+**Lectura recomendada**: [Data Visualization Principles]()
+
+## De los datos a las acciones
+
+
+![](images/dataViz1.png){fig-align="center" width="80%"}
+
+
+## Tipos de comunicación visual
+
+::: columns
+::: {.column width="60%"}
+
+
+![](images/comunica.png){fig-align="center" fig-alt="R logo" width="80%"}
+
+:::
+
+::: {.column width="40%"}
+
+<div style="text-align: justify; font-size: 26px;">
+
+* **Eje horizontal** representa el tipo de información que se está comunicando, va desde conceptos o ideas (izq) hasta datos concretos (der).
+* **Eje vertical** describe la interacción que los usuarios tienen con la visualización. Las visualizaciones declarativas cuentan una historia clara, mientras que la comunicación exploratoria permite a los usuarios interactuar con los datos para llegar a sus propias interpretaciones.
 
 </div>
 
-:::
-
-:::
-
-::: {.column width="30%"}
-
-<br>
-
-![](images/Neyman.jpeg){fig-align="center" fig-alt="R logo" width="80%"}
 
 :::
 
 :::
 
-## Morris Hansen (1910-1990)
+## Tipos de gráficos
+
+![](images/graficos.png){fig-align="center" width="100%"}
+
+<div style="text-align: justify; font-size: 14px;">
+Galerias de gráficos en R: [https://r-graph-gallery.com/](https://r-graph-gallery.com/)
+</div>
+
+## Algunos ejemplos
+
+Con el conjunto de datos artificial _study_ realice un gráfico de cajas que presente el promedio de la variable _score_ por cada tratamiento (asigne un color diferente a las barras según el tratamiento)
+
+. . . 
+
+<br> 
+
+```{r}
+#| echo: true
+
+library(pacman)
+p_load(tidyverse, tidyplots)
+
+g1 <- study |> 
+      tidyplot(x = treatment, y = score, color = treatment, width = 100, height = 100) |>  
+      add_boxplot()
+```
+
+## Algunos ejemplos
+
+Ahora presente las diferencias estadísticas:
+
+. . . 
+
+<br> 
+
+```{r}
+#| echo: true
+
+library(pacman)
+p_load(tidyverse, tidyplots)
+
+g1 <- study |> 
+      tidyplot(x = treatment, y = score, color = treatment, width = 100, height = 100) |>  
+      add_boxplot() |> 
+      add_test_pvalue(ref.group = 1)
+```
+
+## Algunos ejemplos
+
+Haga un gráfico que presente el promedio del _score_ por grupo y tipo de dosis
+
+. . . 
+
+<br> 
+
+```{r}
+#| echo: true
+g2 <- study |> 
+      tidyplot(x = group, y = score, color = dose, width = 100, height = 100) |>  
+      add_mean_bar(alpha = 0.4) |> 
+      add_mean_dash() |>  
+      add_mean_value()
+```
+
+# Business Analytics {background-color="#0077b6"}
+
+## Modelos para generar valor
+
 
 ::: columns
-::: {.column width="70%"}
+::: {.column width="50%"}
 
-::: {.incremental}
+<br>
 
 <div style="text-align: justify;">
 
-* Implementó los diseños de muestreo en la Oficina del Censo y la Oficina de Estadísticas Laborales de EEUU.  
-* Pionero en establecer el Muestreo de Encuestas como un estándar de excelencia para la recolección de datos en agencias gubernamentales.  
-
-* Olkin, I. (1987). Una conversación con Morris Hansen. *Statistical Science* 2, 162-179
+Los modelos de analítica permiten una mejor planificación, tácticas y estrategias de marketing basada en información proporcionada por la dinámica del mercado.
 
 </div>
-
-:::
-
-:::
-
-::: {.column width="30%"}
-
-<br>
-
-![](images/Hansen.jpg){fig-align="center" fig-alt="R logo" width="100%"}
-
-:::
-
-:::
-
-## ¿Por qué hacer muestreo?
-
-* Reducción de costos (eficiencia).
-
-* Obtener información rápida (tiempo). 
-
-* En ocasiones es la única forma de obtener información (procesos de control de calidad).
-
-* ¿Cualquier muestra es buena?. ¿Es suficiente con que la muestra sea muy grande? 
-
-* Para usted, ¿cuál es un tamaño de muestra adecuado?, ¿cuáles cree que son los factores que afectan el tamaño de muestra? 
-
-
-```{r}
-library(countdown)
-countdown(minutes = 4, seconds = 30,  right = 0)
-```
-
-## Temas que se alcanzan en este curso
-
-* Conceptos básicos en el muestreo probabilístico
-* Muestreo Aleatorio Simple
-* Uso de información auxiliar: Muestreo Sistemático, PPT, $\pi$PT, estratificado.
-* Estimadores de Horvitz-Thompson y Hansen-Hurwitz
-* Estimación de la incertidumbre
-* Muestreo por conglomerados y de varias etapas
-
-```{r}
-library(countdown)
-countdown(minutes = 3, seconds = 00,  right = 0)
-```
-
-## Temas que NO se alcanzan a ver en este curso
-
-* Estimadores usando información auxiliar
-* Estrategias de estratificación
-* Métodos de calibración
-* Ajustes por la ausencia de respuesta
-* Estimación de la varianza usando métodos replicados
-* Diseños de muestreo en evaluaciones de impacto o de resultados
-* Modelos de estimación en áreas pequeñas (SAE)
-
-```{r}
-library(countdown)
-countdown(minutes = 3, seconds = 00,  right = 0)
-```
-
-# INTRODUCCIÓN {background-color="#0077b6"}
-
-## Esquema de muestreo
-
-```{r,  out.width= '110%'}
-knitr::include_graphics(here::here("images/Esquema1.png"))
-```
-
-## Esquema de muestreo
-
-```{r,  out.width= '110%'}
-knitr::include_graphics(here::here("images/Esquema2.png"))
-```
-
-
-## Esquema de muestreo
-
-```{r,  out.width= '110%'}
-knitr::include_graphics(here::here("images/Esquema3.png"))
-```
-
-
-## El multiverso y la incertidumbre
-
-```{r,  out.width= '110%'}
-knitr::include_graphics(here::here("images/Esquema4.png"))
-```
-
-
-## Proceso de estimación:
-
-
-::: columns
-::: {.column .right width="50%"}
-
-<br><br><br>
-
-"Todos los modelos son errados pero algunos son útiles"
-
-<br>
-
-George Box (1919 - 2013). 
 
 :::
 
 ::: {.column width="50%"}
 
-![](images/GeorgeEPBox.jpg){fig-align="center" fig-alt="CHICAS logo" width=70%}
+
+![](images/BA.png){fig-align="center" width="80%"}
 
 :::
+
 :::
 
-## Proceso de estimación
+## Decisiones sobre precios
 
-```{r,  out.width= '110%'}
-knitr::include_graphics(here::here("images/Esquema5.png"))
-```
+![](images/VW.png){fig-align="center" width="80%"}
 
-## Discusión
-
-Discutamos los siguientes conceptos por 5 minutos:
-
-- Aleatoriedad
-- Variable aleatoria
-- Población
-- Muestra
-- Incertidumbre
-- Confiabilidad
-
-```{r}
-library(countdown)
-countdown(minutes = 5, seconds = 00,  right = 0)
-
-# countdown(minutes = 1, seconds = 30,
-#           left = 0, right = 0,
-#           padding = "50px",
-#           margin = "5%",
-#           font_size = "6em")
-```
-
-## Decisiones previas al muestreo
-
-- Propósito del estudio
-- Población de interés
-- Disponibilidad de bases de datos
-- Instrumentos de medición
-- Tipo de levantamiento de información
-- Prueba piloto
+. . . 
 
 
-## Conceptos básicos
+Willingness to Pay, Van Westendorp,  Gabor-Granger, Newton-Miller-Smith, Conjoint Analysis… 
 
-<br>
+## Ejemplo: Dashboard modelo de CBC
+
+![](images/conjoint.png){fig-align="center" fig-alt="R logo" width="80%"}
+
+<div style="text-align: justify; font-size: 14px;">
+Mostrar simulador de shiny.
+</div>
+
+## Price Sensitivity Meter - PSM
 
 <div style="text-align: justify;">
 
-**Universo ideal**: Se trata del conjunto sobre el cual el investigador y no propiamente el muestrista pretende obtener algún tipo de información. <span style="color:#FF8D21"> Definir Alcance: Ej. Intención de voto - ¿Rural?</span>
+<br>
+
+El medidor de sensibilidad al precio (PSM) fue propuesto por Peter Van Westendorp (1976). La técnica permite determinar el rango de precios aceptable y el precio óptimo de los productos. 
 
 <br>
 
-**Población Objetivo**: Constituye el conjunto de elementos que partiendo del universo ideal pueden ser realmente alcanzados por la investigación. Lo anterior se puede dar por razones operativas, políticas, económicas, etc.
+Newton, Miller y Smith (1993) ampliaron el PSM con dos preguntas de seguimiento que se pueden utilizar para generar curvas de demanda de productos y curvas de ingresos.
 
 </div>
 
-## Conceptos básicos
+## Metodología
 
-<br>
+![](images/bombillos.png){fig-align="center" width="100%"}
+
+La competencia debe ser evaluada con las características más similares (W, Color de luz,…)
+
+
+## Aplicación
+
+![](images/enchufe.png){fig-align="center" width="100%"}
+
+## Aplicación
+
+![](images/curvaVW.png){fig-align="center" width="150%"}
+
+## PROYECTO 1: SENSIBILIDAD DE PRECIOS 
 
 <div style="text-align: justify;">
 
-**Marco Muestral**: Dispositivo que permite  <span style="color:#FF8D21"> **IDENTIFICAR y UBICAR** </span> a todos los elementos de la población objetivo. 
-
-</div>
-
-- Lista de estudiantes de esta clase.
-- Lista de beneficiarios de un programa. 
-- Listado de municipios del país. 
-
-<span style="color:red"> **TAREA**:</span> Investigue qué es y cómo se obtiene el Marco Geoestadístico Nacional (MGN).
-
-## Conceptos básicos
-
-<div style="text-align: justify;">
-**Operación estadística**
-
-Es la aplicación del conjunto de procesos y actividades que comprende la identificación de necesidades, diseño, construcción, recolección o acopio, procesamiento, análisis, difusión y evaluación, la cual conduce a la producción de información estadística sobre un tema de interés nacional o territorial.
+* **VALOR**: 35%
+* **FECHA DE ENTREGA**: Próximo XXX.
+* **FORMA DE ENTREGA**: PLATAFORMA
 
 </div>
 
 . . . 
 
-<br>
-
-<div style="text-align: justify;">
-**Unidades estadísticas**
-
-Entidad acerca de la que se busca información y para la que se compilan las estadísticas. Puede dividirse en las siguientes categorías: unidad de observación, unidades de análisis y unidad de muestreo.
-
-</div>
-
-## Conceptos básicos
+**BRIEF**
 
 <div style="text-align: justify;">
 
-- **Muestra**: Subconjunto de la población.
-- **Unidad de muestreo**: Objeto o elemento susceptible de ser seleccionado en la muestra.
-- **Unidad de Observación**: Es el objeto sobre el cual se realiza al menos una medición.
-- **Unidad de Análisis**: Elemento de estudio sobre el que se presentan los resultados o las conclusiones de la operación estadística.
+* **Objetivo**: Determinar el rango de precio óptimo para un NUEVO producto en el mercado.
+
+* **Target**: Consumidores de la categoría
+* **Cobertura**: La debe especificar el estudiante.
 
 </div>
 
 
-## Conceptos básicos
+## PROYECTO 1: SENSIBILIDAD DE PRECIOS 
 
 <div style="text-align: justify;">
 
-- **Elemento**: Unidad individual sobre las que se realizan mediciones.
-- **Conglomerado**: Agrupación de elementos.
-- **Error de muestreo**: Es el imputable a la aleatoriedad de la muestra.
-- **Error de no muestreo**: Son consecuencia de definiciones conceptuales incorrectas, de fallos en los instrumentos de medida, en la entrevista o en el desarrollo del trabajo de campo.
+* **Muestra**: Al menos 20 respuestas (Nota máx. de 4.0). Por cada encuesta adicional se sumará 0.1.
+* **Preguntas (Análisis)**: Mínimo agrado, intención de compra y las 4 de precios.
+* **Resultados esperados**: Presentación comercial (Power Point, canvas, Beamer, etc.) con ficha técnica de la investigación (Investigar), contextualización del producto, gráfico VW,  rango de precios y conclusiones con recomendaciones. Debe entregar la Base de datos y el enlace con el que se realizó la encuesta.
 
 </div>
 
-## Conceptos básicos
+<span style="color:##81b622; font-size: 14px;">
+*La estética y forma de presentación tienen una ponderación en la nota
+</span>
 
-**Variables de interés**
+## {background-image="images/ex1.png" width="200px" height="100px"}
+## {background-image="images/ex2.png" width="200px" height="100px"}
+## {background-image="images/ex3.png" width="200px" height="100px"}
 
-<div style="text-align: justify;">
+## Resumen de variables cuantitativas
 
-Regularmente se denotan como $y_k$, $z_k$ o $x_k$, y sobre estas se definen los parámetros a investigar que pueden ser: Totales, razones, proporciones, indicadores, índices. 
+![](images/cuanti.png){fig-align="center" width="100%"}
 
-<br>
-
-Por ejemplo, total de personas desempleadas, total de personas que consumen un producto, proporción de personas que votarán por el candidato A, proporción de hogares en pobreza condición de pobreza extrema, ventas por $m^2$, promedio de ingresos de los hogares.
-
-</div>
-
-## Tu turno
-
-<br><br>
-
-Identifique:
-
-- Universo
-- Muestra
-- Unidades estadísticas
-- Variables
-- Parámetros de interés
-
-
-## Ejemplo 1: Clima escolar
-
-
-<div style="text-align: justify;">
-
-<br><br>
-
-La SED realizó una investigación en los colegios oficiales de la ciudad de Bogotá D.C. con el fin de medir el clima escolar de las instituciones, para ello usó una muestra de 658 sedes educativas, en las cuales se seleccionaron estudiantes de los grados 3°, 5°, 7° y 9° para aplicar un instrumento donde se indagan, entre otros, los aspectos sobre el bulling, relaciones sociales, nivel de satisfacción con la sede educativa. 
-
-</div>
-
-## Ejemplo 2: Intención de voto
-
-
-<div style="text-align: justify;">
-
-Una campaña política para la Presidencia de la República realizó una investigación para establecer las estrategias a seguir. Para ello se dividió al país en 7 regiones, y dentro de cada una se dividieron los municipios en tres tipos: grandes, medianos y pequeños. Dentro de cada tipo se seleccionó una muestra de municipios, dentro de los municipios seleccionados se usó el MGN para seleccionar segmentos, hogares y finalmente personas. La muestra consideró a 6430 personas con edad para votar en 89 municipios, los cuales respondieron por el conocimiento de los candidatos, la intención de voto y los aspectos que consideran que actualmente son los principales problemas del país.  
-
-</div>
-
-
-
-## Tipos de muestreo
-
-Existen dos grandes categorías de métodos de muestreo
+## Aplicación: Marketing Directo
 
 ::: columns
-::: {.column width="60%"}
 
-::: {.incremental}
+::: {.column width="50%"}
 
-<div style="text-align: justify;">
+<br>
 
-<span style="font-size:22pt">**Muestreo probabilístico:** Implica que todos los elementos de una población objetivo tienen una probabilidad CONOCIDA  a priori de ser seleccionados y que al momento de la selección se aplica un algoritmo aleatorio que garantiza que dichas probabilidades se cumplan. Permite <span style="color:#FF8D21">**generalizar los resultados a toda la población pero son costosos**</span></span>
+**¿Qué significa?**
 
-</div>
+<br>
 
-:::
-
-:::
-
-::: {.column width="40%"}
-
-
-![](images/Probabilisticos.png){fig-align="center" width="100%"}
-<span style="font-size:8pt">**Figura:** Fuente de la imagen: [Scribbr - Sampling Methods](https://www.scribbr.com/methodology/sampling-methods/)</span>
+Es la comunicación a través de algunos medios con 
+el fin de generar una reacción.
 
 :::
 
-:::
+::: {.column width="50%"}
 
-
-## Tipos de muestreo
-
-Existen dos grandes categorías de métodos de muestreo
-
-::: columns
-::: {.column width="60%"}
-
-::: {.incremental}
-
-<div style="text-align: justify;">
-
-<span style="font-size:22pt">**Muestreo NO probabilístico:** Son todas las demás muestras donde el investigador puede influenciar la selección o debido a la inexistencia de un marco muestral o por ser un target de difícil consecución no es posible conocer las probabilidades a priori. <span style="color:#FF8D21"> **No es posible hacer inferencia a la población**, es de bajo costo y fácil aplicación.</span></span>
-
-</div>
-
-:::
-
-:::
-
-::: {.column width="40%"}
-
-![](images/NoProbabilisticos.png){fig-align="center" width="100%" fig-cap="Fuente: [Sampling Methods](https://conceptshacked.com/probability-sampling/)"}
-<span style="font-size:8pt">**Figura:** Fuente de la imagen: [Sampling Methods](https://conceptshacked.com/probability-sampling/)</span>
-
+![](images/directmark.jpg)  
 
 :::
 
 :::
 
 
-## Tipos de muestreo
+## Aplicación: Marketing Directo
 
+::: {.content}
 
+**Objetivos**
 
-```{r}
-library(ggflowchart)
-library(ggplot2)
-data <- tibble::tibble(from = c(rep("Tipos de Muestreo", 2), 
-                                rep("No Probabilístico", 4),
-                                rep("Probabilístico", 4)),
-                       to = c("No Probabilístico", "Probabilístico", 
-                              "Bola de nieve", "Conveniencia", "Juicio", "Cuotas",
-                              "Estratificado", "PPT", "Bernoulli", "MAS"))
-ggflowchart(data, horizontal = TRUE, 
-            arrow_colour = "darkblue", colour = "black",
-            text_colour = "white", fill = "blue") 
-```
+Ganar clientes y fomentar la fidelidad de los mismos. El objetivo de la 
+fidelidad de los clientes puede estar dirigido a que repitan la compra o a mantener la adquisición permanente de un producto.
 
-# MUESTREO PROBABILÍSTICO {background-color="#0077b6"}
+**Metodología**
 
-## Notación
+Hacer un continuo seguimiento de los clientes con el fin de detectar y responder: 
+  Cómo están agrupados?. 
+  Quiénes son?. 
+  Donde están? 
+  Cuáles son los mejores? 
+  Alarmas sobre quiénes están en riesgo, etc..
 
-<br><br>
+:::
 
-<div style="text-align: justify;">
+## Segmentación
 
-Defina a $U$ un universo^[En adelante se denominará universo a la población objetivo.] de elementos $\{U_1,\ldots,U_N\}$ **finito** y **conocido** de antemano con una variable de interés $Y$ que toma valores $\{y_1,\ldots,y_N\}$. Sea el parámetro $\theta$ (medida del universo) una función de $(y_1,\ldots,y_N)$ de esta manera a $\theta(y_1,\ldots,y_N)$ se denomina parámetro y se denota $\theta$.
+Es el proceso de dividir una población en grupos más pequeños que tengan características y necesidades semejantes dentro de ellos y distintas entre ellos.
 
-</div> 
+Se identifican grupos con alto nivel de relación para definir un plan de contactos adecuado, con el mensaje correcto, a través de canales precisos, a los clientes adecuados.
 
-## Conceptos básicos
+![](images/segmenta.png){fig-align="center"}  
 
-<br>
+# Proceso de ETL: Extracción, Transformación y Carga
 
-Algunos parámetros de interés en un estudio por muestreo:
 
-- **Total**: Ocupados, Desocupados, Pobreza Extrema, Consumidores de SPA, ...
+![](images/rfm.png){fig-align="center"}  
 
-$$t_y=\sum_Uy_k$$
+## Bases de datos relacionales
 
-## Conceptos básicos
+Estructura de datos que cumple el modelo entidad-relación (objeto–atributos).
 
-<br>
+Es un conjunto de tablas estructuradas en registros (filas) y campos (variables, columnas), que se vinculan entre sí por un campo en común (índice).
 
-Algunos parámetros de interés en un estudio por muestreo:
+El software que gestiona la BD se denomina SGDBR–Sistema Gestor de la Base de Datos Relacional(RDBMS -Relational Data Base Management System). Ej.: PostgreSQL, Oracle, MySQL, DB2, SQL Server, Access…
 
-- **Promedio**: Promedio de ingresos, promedio de ventas,...
+## Bases de datos relacionales 
 
-$$\overline{y}_U=\frac{1}{N}\sum_Uy_k$$
+![](images/relaciones.png){fig-align="center"}  
 
 
-## Conceptos básicos
-
-<br>
-
-Algunos parámetros de interés en un estudio por muestreo:
-
-- **Razón**: Tasa de ocupación, tasa de desempleo, consumo de gasolina de un auto (Km por galón),...
-
-$$R=\frac{\sum_Uy_k}{\sum_Uz_k}=\frac{t_y}{t_z}$$
-
-## Conceptos básicos
-
-<br><br>
-
-Sea $s$ una muestra de elementos con mediciones $y_1,\ldots,y_{n_s}$. Se define el estimador $\widehat{\theta}$, como una función de los valores de la muestra que es construido de tal manera que apunte al valor del parámetro $\theta$.
-
-
-## Estimadores
-
-
-**Estimador del total**
-
-$$\widehat{t}_y = ?$$
-
-
-**Estimador del promedio**
-
-$$\overline{y}_s=\frac{1}{n_s}\sum_sy_k; \hspace{1.0cm} \widetilde{y}_s=\sqrt[n_s]{\prod_sy_k}$$
-
-. . . 
-
-Note que la proporción, promedio y razón son casos particulares de la estimación de un total.
-
-## Propiedades de un estimador
-
-<br>
-
-¿Qué buscamos en un estimador?
-
-. . . 
-
-
-- *Insesgado*: $\mathbb{E}(\widehat{\theta})=\theta$
-- *Mínima Varianza*: $\mathbb{V}(\widehat{\theta})\rightarrow 0$
-- $ \$ \downarrow$
-
-
-## Estimación de la incertidumbre
-
-<div style="text-align: justify;">
-
-Si $\widehat{\theta}$ es una función basada en una suma de variables aleatorias independientes el teorema central de límite permite encontrar una expresión para la estimación por intervalo bajo ciertas condiciones de regularidad. En caso de que $\mathbb{E}(\widehat{\theta})=\theta$ se espera con una confiabilidad del $(1-\alpha)100\%$ que:
-$$\theta \in \left(\widehat{\theta}-z_{1-\alpha/2}\sqrt{V(\widehat{\theta})}, \widehat{\theta}+z_{1-\alpha/2}\sqrt{V(\widehat{\theta})}\right),$$
-
-en donde $z_{1-\alpha/2}$ es el percentil correspondiente en una distribución normal estándar.
-
-</div> 
-
-## Observaciones
-
-- Lo que se distribuye normal es el estadístico y no la variable de interés.
-- La distribución de la variable de interés es invariante independiente del tamaño de muestra.
-- Para estudios en tendencia no es suficiente con comparar estimaciones puntuales, sino que debe hacerse la prueba de hipótesis correspondiente para determinar si existe diferencia significativa. Ejemplo: Tasa de desempleo.
-
-## Ejercicio: TCL
-
-<br><br><br>
-
-Simule 100 muestra de tamaño 1000 proveniente de una distribución uniforme en $(0,1)$. Calcule el estadístico $\bar{y}_s$ para cada una de las 100 muestras y realice los histogramas para $n=5, 10, 15, 20, 25, 30, 40, 50, 60, 80, 100$. Concluya.
-
-## Solución
-
-**Paso 1**: Construir el marco de datos con los valores
-
-```{webr-r}
-#| echo: true
-filas <- 1000
-columnas <- 100
-
-set.seed(123456)
-df <- as.data.frame(matrix(runif(filas * columnas), 
-                           nrow = filas, ncol = columnas))
-
-head(df)
-```
-
-
-## Solución
-
-Veamos la distribución de $y$ en algunas de las muestras
-
-```{webr-r}
-#| echo: true
-library(ggplot2)
-library(patchwork)
-
-p1 <- df |> ggplot(aes(x=V1)) + geom_density(color = "#000000", fill = "#0099F8")
-p2 <- df |> ggplot(aes(x=V2)) + geom_density(color = "#000000", fill = "#0099F8")
-p3 <- df |> ggplot(aes(x=V99)) + geom_density(color = "#000000", fill = "#0099F8")
-
-
-(p1 | p2 | p3)
-```
-
-## Solución
-
-¿Cómo es la distribución de $\sum_sy_k$?
-
-```{webr-r}
-#| echo: true
-library(tidyverse)
-library(glue)
-
-df2 <- df |> 
-       summarise(across(where(is.numeric), ~sum(.))) |> 
-       pivot_longer(everything(), names_to = "variable", values_to = "suma")
-
-densidad <- function(data, n){
-  data |> 
-    slice(1:n) |> 
-    ggplot(aes(x=suma)) + 
-    geom_density(color = "#000000", fill = "#0099F8") +
-    labs(title = glue("n = {n}"))
-}
-
-h5 <- densidad(df2, n = 5);      h10 <- densidad(df2, n = 10)
-h15 <- densidad(df2, n = 15);    h20 <- densidad(df2, n = 20)
-h25 <- densidad(df2, n = 25);    h30 <- densidad(df2, n = 30)
-h50 <- densidad(df2, n = 50);    h60 <- densidad(df2, n = 60)
-h80 <- densidad(df2, n = 80);    h100 <- densidad(df2, n = 100)
-
-(h5 | h10 | h15 | h20) / (h25 | h30 | h50 | h60) / (h80 | h100)
-```
-
-## Solución
-
-¿Cómo es la distribución de $\sum_sy_k$?
-
-```{r}
-#| echo: false
-
-library(pacman)
-p_load(tidyverse, patchwork, glue)
-filas <- 1000
-columnas <- 100
-
-set.seed(123456)
-df <- as.data.frame(matrix(runif(filas * columnas), 
-                           nrow = filas, ncol = columnas))
-
-df2 <- df |> 
-       summarise(across(where(is.numeric), ~sum(.))) |> 
-       pivot_longer(everything(), names_to = "variable", values_to = "suma")
-
-densidad <- function(data, n){
-  data |> 
-    slice(1:n) |> 
-    ggplot(aes(x=suma)) + 
-    geom_density(color = "#000000", fill = "#0099F8") +
-    labs(title = glue("n = {n}"))
-}
-
-h5 <- densidad(df2, n = 5);      h10 <- densidad(df2, n = 10)
-h15 <- densidad(df2, n = 15);    h20 <- densidad(df2, n = 20)
-h25 <- densidad(df2, n = 25);    h30 <- densidad(df2, n = 30)
-h50 <- densidad(df2, n = 50);    h60 <- densidad(df2, n = 60)
-h80 <- densidad(df2, n = 80);    h100 <- densidad(df2, n = 100)
-
-(h5 | h10 | h15 | h20) / (h25 | h30 | h50 | h60) / (h80 | h100)
-```
-
-## Diseño muestral
-
-**Definición:**
-
-Sea $s \subseteq U$ una muestra probabilística y sea $S$ el conjunto de todas las muestras posibles. La función de medida de probabilidad:
-
-\begin{align*}
-\mathbf{P}: & S \rightarrow (0,1) \\
-& s_i \mapsto p(s_i)
-\end{align*}
-
-Dado el conjunto $S$, un **diseño de muestreo** es una función $p(\cdot)$, tal que $p(s_i)$ es la probabilidad de que la muestra $i$ sea la seleccionada.
-
-## Muestreo Aleatorio Simple: $MAS(N, n)$
-
-Un diseño de muestreo es aleatorio simple si:
-
-\begin{equation}
-p(s_i)=\begin{cases} \frac{1}{\binom{N}{n}} \hspace{0.5cm} \forall \textit{$s$ de tamaño $n$ de $N$ sin repocisión} \\
-\hspace{0.2cm} 0 \hspace{0.7cm} \textit{en otro caso}\end{cases}
-\end{equation}
-$n$ corresponde al tamaño de la muestra mientras que $N$ corresponde al tamaño del universo.
-
-<br>
-
-<span style="color:#FF8D21"> **Tu turno**: Construya el marco y el espacio muestral basado en el gasto de $N=10$ personas con muestras de $n=3$ elementos </span>
-
-```{r}
-library(countdown)
-countdown(minutes = 4, seconds = 00,  right = 0)
-```
-
-## Muestreo Aleatorio Simple: $MAS(N, n)$
-
-```{webr-r}
-#| echo: true
-library(tidyverse)
-marco <- tribble(
-  ~consec,          ~nombre,    ~gasto,
-        1,      "Alejandro",        53400,
-        2,          "Jairo",       100000,
-        3,         "Andrea",         7000,
-        4,       "Katerine",        10000,
-        5,          "Yeimy",        70000,
-        6,          "David",        50000,
-        7,          "Thais",        10000,
-        8,     "John Jairo",       125000,
-        9,          "Karol",        29000,
-        10,        "Daniel",         2000
-)
-
-N <- nrow(marco)
-n <- 3
-
-omega <- combn(1:N, n) |> t()
-```
-
-
-## Algoritmos de selección para un MAS
-
-**Coordinado Negativo**
-
-1. Generar $N$ realizaciones de una variable aleatoria $\xi_k$ ($k\in U$) con distribución uniforme (0,1).
-2. Asignar $\xi_k$ al elemento $k$-ésimo de la población.
-3. Ordenar la lista de elementos descendente (o ascendentemente) con respecto a este número aleatorio $\xi_k$.
-4. Seleccionar los $n$ primeros (o los $n$ últimos) elementos. 
-
-. . . 
-
-<span style="color:#FF8D21"> **Tu turno**: Seleccione una muestra aleatoria simple de tamaño $n=3$ elementos del universo de $N=10$ usando el algoritmo coordinado negativo </span>
-
-```{r}
-library(countdown)
-countdown(minutes = 3, seconds = 00,  right = 0)
-```
-
-
-## Algoritmos de selección para un MAS
-
-**Fan-Muller-Rezucha (1962)**
-
-1. Realizar $\xi_k\sim U(0,1)$
-2. Calcular
-$$c_k=\dfrac{n-n_k}{N-k+1}$$
-donde $n_k$ es la cantidad de objetos seleccionados en los $k-1$ ensayos anteriores.
-3. Si $\xi_k<c_k$, entonces el elemento $k$ pertenece a la muestra.
-4. Detener el proceso cuando $n=n_k$.
-
-
-## Algoritmos de selección para un MAS
-
-<br> <br>
-
-<span style="color:#FF8D21"> **Tu turno**:</span> Seleccione una muestra aleatoria simple de tamaño $n=3$ elementos del universo de $N=10$
-
-<br>
-
-1. Use el método de Fan-Muller. Explore la función `?TeachingSampling::S.SI()` 
-2. Use la función `sample(x, size)` 
-
-
-## Muestreo Bernoulli. $Ber(N, \pi)$
-
-<br>
-
-$$p(s_i)=\underbrace{\pi\cdot\pi\cdots\pi}_{n_s \text{ veces}}\underbrace{(1-\pi)(1-\pi)\cdots(1-\pi)}_{N-n_s \text{ veces}}$$
-
-. . . 
-
-
-$$p(s_i)=\begin{cases} \pi^{n_s}(1-\pi)^{N-n_s} \forall s \textit{con } n_s \textit{ elementos sin reposición} \\
-\hspace{0.2cm} 0 \hspace{0.7cm} \textit{en otro caso}\end{cases}$$
-
-. . .
-
-$\pi$ se fija a priori por experiencia y es igual para todos los elementos de $U$, nótese que $n_s$ es un tamaño de muestra aleatorio que puede incluir a todos o a ningún elemento en la muestra.
-
-## Mecanismo de selección
-
-<br><br>
-
-- Fijar el valor de $\pi$ tal que $0<\pi<1$.
-- Asignar $\xi_k \sim U(0,1)$ para todos los elementos de $U$.
-- El elemento $k$ pertenece a la muestra si $\xi_k < \pi$. Así la probabilidad de que el $k$-ésimo elemento pertenezca a la muestra es igual a $\pi$.
-
-. . . 
-
-Revisión de equipajes en aeropuertos.
-
-## Muestreo Sistemático. $SIS(N, n, r)$
-
-<div style="text-align: justify;">
-
-Cuando no se dispone de un marco de muestreo de manera explícita pero se sabe que la población está ordenada por un rótulo en particular. Por ejemplo, los hogares dentro de una manzana están ordenados por su dirección o número de apartamento.
-
-</div>
-
-. . . 
-
-<br>
-
-$p(s_i)=\begin{cases} \frac{1}{\binom{a}{r}} \hspace{0.5cm} s= \{a_j, a_k\}, r=2 \\
-\hspace{0.2cm} 0 \hspace{0.7cm} \textit{en otro caso}\end{cases}$
-
-<br>
-
-$N=an+r$, el tamaño de muestra se define como la parte entera del cociente $N/a$.
-
-
-## Mecanismo de selección
-
-<br><br>
-
-- Seleccionar con probabilidad $\frac{1}{a}$ un arranque aleatorio. Es decir, un valor $q$ tal que $1\leq q \leq a$.
-- La muestra estará definida por el siguiente conjunto:
-$$s_q=\left\{k: k=q+(j-1)a; j=1, \ldots, n_s\right\}$$
-
-## Probabilidades de Inclusión
-
-<br>
-
-Se define probabilidad de inclusión de primer orden del elemento $k$
-
-$$\pi_k=\sum_{k \in s_i}p(s_i)$$
-
-. . . 
-
-Sea:
-
-$$I_k=\begin{cases}1 \hspace{0.3cm} \text{si $k \in s$} \\
-0 \hspace{0.3cm} \text{en otro caso}\end{cases}$$
-
-. . . 
-
-Entonces $\pi_k=P(I_k=1)$
-
-<span style="color:#FF8D21"> ejemplo MAS </span>
-
-## Probabilidades de Inclusión
-
-<br>
-
-Se define probabilidad de inclusión de segundo orden de los elementos $k$ y $l$
-
-$$\pi_{kl}=\sum_{k,l \in s_i}p(s_i)$$
-
-. . . 
-
-Entonces $\pi_{k,l}=P(I_kI_l=1)$
-
-## Probabilidades de Inclusión
-
-<br><br>
-
-- $\pi_{kk}=\pi_k.$
-- Por definición de muestra probabilística $\pi_k>0$.
-- En muestreo de elementos $\pi_k$ para todo $k=1,\ldots,N$  son conocidos de antemano.
-
-
-## Estadística y Estimador
-
-Sea $\widehat{\theta}$ una estadística o estimador entonces bajo el diseño muestral $p(\cdot)$ se define:
-
-- Valor esperado: $E_P(\widehat{\theta})=\sum_Sp(s_i)\widehat{\theta}$
-- Sesgo: $B(\widehat{\theta})=E_P(\widehat{\theta})-\theta$
-- Varianza: $V_P(\widehat{\theta})=\sum_Sp(s_i)\left[\widehat{\theta}-E(\widehat{\theta})\right]^2$
-- Error Cuadrático Medio: $ECM(\widehat{\theta})=V(\widehat{\theta})+B^2(\widehat{\theta})$
-
-## Estadística y Estimador
-
-Sea $\widehat{\theta}$ una estadística o estimador entonces bajo el diseño muestral $p(\cdot)$ se define:
-
-- Error estándar: $\sqrt{V_P(\widehat{\theta})}$
-- Coeficiente de variación (error relativo): $\frac{\sqrt{V_P(\widehat{\theta})}}{E_P(\widehat{\theta})}$
-- Coeficiente de variación estimado: $cve(\%)=100*\frac{\sqrt{\widehat{V}_P(\widehat{\theta})}}{\widehat{\theta}}$
 
 # GRACIAS! {background-color="#ddf3ff"}
 
