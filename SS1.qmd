@@ -183,6 +183,18 @@ Un sistema de inteligencia de negocios incluye <span style="color:#FF8D21"> herr
 
 ## Inteligencia de negocios
 
+<br><br>
+
+- ¿Qué se imagina cuando le piden una estrategia de inteligencia de negocios?
+- ¿Cuáles son los aspectos que se deberían considerar?
+
+```{r}
+library(countdown)
+countdown(minutes = 5, seconds = 00,  right = 0)
+```
+
+## Inteligencia de negocios
+
 <div style="text-align: justify;">
 
 Estaremos hablando de conceptos, técnicas y herramientas que constituyen el soporte de la inteligencia de negocio y la analítica de negocios como: 
@@ -522,11 +534,13 @@ knitr::include_graphics(here::here("images/ChatGPT.jpeg"))
 
 ## Herramientas
 
-- https://rtutor.ai/
-- https://www.codeconvert.ai/r-to-python-converter
+- [https://rtutor.ai/](https://rtutor.ai/)
+- [https://www.codeconvert.ai/r-to-python-converter](https://www.codeconvert.ai/r-to-python-converter)
 - ChatGPT
 - Copilot
 - Gemini
+- Claude
+- GitHub Copilot
 - . . .
 
 ## Ejemplo
@@ -648,7 +662,7 @@ Modelos de IA generativa: [https://www.futureofai.mit.edu/](https://www.futureof
 * **Usar el eje completo comenzando en cero** para evitar malinterpretaciones de los datos.
 * **Evite gráficos de pastel** especialmente para comparaciones, ya que son difíciles de interpretar visualmente.
 
-**Lectura recomendada**: [Data Visualization Principles]()
+**<span style="color:#FFA652">Lectura recomendada</span>**: [Data Visualization Principles](https://github.com/jgbabativam/BI/blob/main/Lecturas/2.%20Data%20visualization%20principles.pdf)
 
 ## De los datos a las acciones
 
@@ -687,6 +701,15 @@ Modelos de IA generativa: [https://www.futureofai.mit.edu/](https://www.futureof
 <div style="text-align: justify; font-size: 14px;">
 Galerias de gráficos en R: [https://r-graph-gallery.com/](https://r-graph-gallery.com/)
 </div>
+
+## Inspiración
+
+<br>
+
+- [Conceptos gráficos](https://datavizcatalogue.com/ES/)
+- [Dataviz Inspiration](https://www.dataviz-inspiration.com/)
+- [Galerías ggplot2](https://r-graph-gallery.com/ggplot2-package.html)
+- [Galerías R](https://r-graph-gallery.com/)
 
 ## Algunos ejemplos
 
@@ -750,19 +773,17 @@ g2 <- study |>
 
 
 ::: columns
-::: {.column width="50%"}
-
-<br>
+::: {.column width="60%"}
 
 <div style="text-align: justify;">
 
-Los modelos de analítica permiten una mejor planificación, tácticas y estrategias de marketing basada en información proporcionada por la dinámica del mercado.
+**Business Analytics** (BA) es el uso de datos, análisis estadístico y modelos para apoyar la toma de decisiones estratégicas y operativas en las organizaciones. Su utilidad radica en transformar datos en insights accionables que permitan optimizar procesos, identificar oportunidades y mejorar la competitividad empresarial.
 
 </div>
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%"}
 
 
 ![](images/BA.png){fig-align="center" width="80%"}
@@ -771,14 +792,66 @@ Los modelos de analítica permiten una mejor planificación, tácticas y estrate
 
 :::
 
+## Modelos para generar valor
+
+<br>
+
+1. **Predicción**: Anticipar tendencias y comportamientos futuros (metas, mercado potencial, proyecciones).
+2. **Diagnóstico**: Identificar causas subyacentes de problemas o patrones (análisis de la caída en ventas o de la satisfacción del cliente).
+3 **Prescripción**: Proponer acciones óptimas para alcanzar objetivos (estrategias de precios, asignación de recursos).
+4. **Descriptivo**: Resumir datos para entender comportamientos (percepción, hábitos).
+
+## Modelos para generar valor
+
+**Modelos de Predicción de Churn (Deserción)**: 
+
+- Regresión Logística: Predecir la probabilidad de que un cliente abandone.
+- Análisis de Supervivencia: Identifica el tiempo hasta que un cliente abandona.
+- Árboles de Decisión: Identificar reglas simples que expliquen la deserción.
+- Modelos de Machine Learning: Redes neuronales, Random Forest, SVM, modelos basados en XGBoost o LightGBM.
+- Análisis RFM (Recency, Frequency, Monetary): Segmentación de clientes según comportamiento histórico.
+
+## Modelos para generar valor
+
+<br>
+
+**Optimización de Campañas de Marketing**: 
+
+- Clustering: Segmentación de clientes para personalizar mensajes o definir estrategias.
+- Modelos de Propensión: Para identificar la probabilidad de que un cliente responda a una campaña.
+- A/B Testing: Evaluar la efectividad de diferentes campañas.
+- Sistemas de Recomendación: Filtrado colaborativo y basado en contenido para ofertas personalizadas (busqueda en redes sociales).
+
+## Modelos para generar valor
+
+<br>
+
+**Satisfacción y Experiencia del Cliente**:
+
+- Análisis de Sentimientos (NLP): Identificar opiniones positivas o negativas en encuestas o redes sociales.
+- Análisis de redes semánticas: Descubrir temas recurrentes en comentarios de clientes.
+- Modelos de asociación: Relacionar la satisfacción con factores específicos.
+
+## Modelos para generar valor
+
+<br>
+
+**Gestión de Precios y Estrategias de Revenue Management**
+
+- Elasticidad de Precios: Modelos Regresión Logística o Lineal para entender el impacto de cambios de precios.
+- Optimización de Precios Dinámicos: Programación matemática o Machine Learning (pasajes áereos, tarifa dinámica de uber).
+- Modelos de Simulación: Para predecir ingresos en diferentes escenarios (logit anidado).
+- Utilidad: Maximizar ingresos mediante precios optimizados según la demanda y competencia (CBC).
+
 ## Decisiones sobre precios
 
 ![](images/VW.png){fig-align="center" width="80%"}
 
 . . . 
 
+Van Westendorp, Gabor-Granger, Newton-Miller-Smith, Conjoint Analysis. 
 
-Willingness to Pay, Van Westendorp,  Gabor-Granger, Newton-Miller-Smith, Conjoint Analysis… 
+**<span style="color:#FFA652">Lectura recomendada</span>**: [How to price products for maximum profitability](https://github.com/jgbabativam/BI/blob/main/Lecturas/3.%20Product_Pricing.pdf)
 
 ## Ejemplo: Dashboard modelo de CBC
 
@@ -859,9 +932,67 @@ La competencia debe ser evaluada con las características más similares (W, Col
 ## {background-image="images/ex2.png" width="200px" height="100px"}
 ## {background-image="images/ex3.png" width="200px" height="100px"}
 
-## Resumen de variables cuantitativas
+# Estructuras de datos {background-color="#0077b6"}
 
-![](images/cuanti.png){fig-align="center" width="100%"}
+## Proceso de ETL: Extracción, Transformación y Carga
+
+
+![](images/rfm.png){fig-align="center"}  
+
+## Bases de datos relacionales
+
+Estructura de datos que cumple el modelo entidad-relación (objeto–atributos).
+
+Es un conjunto de tablas estructuradas en registros (filas) y campos (variables, columnas), que se vinculan entre sí por un campo en común (índice).
+
+El software que gestiona la BD se denomina SGDBR–Sistema Gestor de la Base de Datos Relacional(RDBMS -Relational Data Base Management System). Ej.: PostgreSQL, Oracle, MySQL, DB2, SQL Server, Access…
+
+## Bases de datos relacionales 
+
+![](images/relaciones.png){fig-align="center"}  
+
+## Bases de datos relacionales 
+
+![](images/ejemploRela.png){fig-align="center"}  
+
+## Conceptos clave
+
+<br>
+
+* **Tabla de datos**: Estructura de datos de dos dimensiones.
+* **Base de datos**: Conjunto de tablas de datos que generalmente pertenecen al mismo contexto
+* **Cubo OLAP**: Base de datos multidimensional para análisis interactivo.
+* **Bases de datos NoSQL**: Sistemas de almacenamiento que no cumplen el modelo entidad-relación.
+
+## Arquitectura
+
+![[Ver artículo](https://blogs.deusto.es/bigdata/herramientas-etl-y-su-relevancia-en-la-cadena-de-valor-del-dato/)](images/dataWarehose.png){fig-align="center" width="100%"}
+
+## Construcción de un DW
+
+**Metadatos**: recoge la información de toda la estructura y datos
+
+
+![](images/hechos.png){fig-align="center" width="100%"}
+
+## Dato vs Información
+
+El DW es el motor del **Business Intelligence** (BI) y está diseñado para favorecer el análisis y la divulgación eficiente de datos.
+
+
+El BI usa los datos de una empresa para facilitar la toma de decisiones.
+
+<div style="text-align: center; color: #FF8C00; font-size: 32px;">
+**DATOS -> INFORMACIÓN -> CONOCIMIENTO**
+</div>
+
+. . . 
+
+Características de un BI:
+
+* Accesibilidad a la información
+* Apoyo a la toma de decisiones
+* Orientación al usuario final
 
 ## Aplicación: Marketing Directo
 
@@ -917,36 +1048,100 @@ Se identifican grupos con alto nivel de relación para definir un plan de contac
 
 ![](images/segmenta.png){fig-align="center"}  
 
-# Proceso de ETL: Extracción, Transformación y Carga
+## Resumen de variables cuantitativas
+
+![](images/cuanti.png){fig-align="center" width="100%"}
+
+## Nuestros datos
+
+![](images/rfm.png){fig-align="center"} 
+
+## Segmentación - Marketing Directo
+
+![](images/pareto.png){fig-align="center"} 
+
+Identifique el nivel de riesgo de su negocio ¿de cuántos dependo hoy?. Implemente estrategias para cuidar esos clientes importantes. Identifique, ¿Quiénes son?, ¿Dónde están?.
+
+## Segmentación RFM
 
 
-![](images/rfm.png){fig-align="center"}  
+![](images/rfm2.png){fig-align="center"} 
 
-## Bases de datos relacionales
+<div style="text-align: justify; font-size: 14px;">
 
-Estructura de datos que cumple el modelo entidad-relación (objeto–atributos).
+Adaptado de Woolf, B (2002). Loyalty Marketing: The Second Act
 
-Es un conjunto de tablas estructuradas en registros (filas) y campos (variables, columnas), que se vinculan entre sí por un campo en común (índice).
+</div>
 
-El software que gestiona la BD se denomina SGDBR–Sistema Gestor de la Base de Datos Relacional(RDBMS -Relational Data Base Management System). Ej.: PostgreSQL, Oracle, MySQL, DB2, SQL Server, Access…
+## Segmentación RFM
 
-## Bases de datos relacionales 
 
-![](images/relaciones.png){fig-align="center"}  
+![](images/rfm3.png){fig-align="center"} 
 
+<div style="text-align: justify; font-size: 14px;">
+
+Adaptado de Woolf, B (2002). Loyalty Marketing: The Second Act
+
+</div>
+
+## Segmentación RFM
+
+
+![](images/rfm4.png){fig-align="center"} 
+
+<div style="text-align: justify; font-size: 14px;">
+
+Adaptado de Woolf, B (2002). Loyalty Marketing: The Second Act
+
+</div>
+
+## Segmentación RFM
+
+<br>
+
+**Interpretación**
+
+- ¿Qué significa que el resultado sea 111?
+- ¿Qué significa que el resultado sea 211?
+- ¿Cuál debería ser la estrategia de retención en cada segmento?
+
+```{r}
+library(countdown)
+countdown(minutes = 3, seconds = 00,  right = 0)
+```
+
+## Visualización: Mapa de segmentación
+
+![](images/mapa.png){fig-align="center"} 
+
+## Visualización: Mapa de acción
+
+![](images/mapa2.png){fig-align="center"} 
+
+## Ejercicio
+
+<br><br>
+
+<span style="color:#FF8D21"> **Tu turno**:</span> Use los conjustos de datos "rfm_transacciones.xlsx" y "rfm_ejemplo.xlsx" para hacer una segmentación RFM. Discuta sobre las estrategias que aplicaría.
+
+```{r}
+library(countdown)
+countdown(minutes = 15, seconds = 00,  right = 0)
+```
 
 
 # GRACIAS! {background-color="#ddf3ff"}
 
 # Referencias
 
-- Gutiérrez, H. A. (2009). Estrategias de muestreo: Diseño de encuestas y estimación de parámetros. Facultad de Estadística, Universidad Santo Tomás.
+- Howson, C. (2013). Successful Business Intelligence, Second Edition: Unlock the Value of BI & Big Data. 2d Edition. McGraw Hill.
 
-- Lohr, S. L. (2021). Sampling: design and analysis. Chapman and Hall/CRC.
+- Sherman, R. (2014). Business Intelligence Guidebook: From Data Integration to Analytics. Morgan Kaufmann
 
-- Särndal, C. E., Swensson, B., & Wretman, J. (2003). Model assisted survey sampling. Springer Science & Business Media.
+- Sinha, C. (2024). Mastering Power BI: Build business intelligence applications powered with DAX calculations, insightful visualizations, advanced BI techniques, and loads of data sources. BPB Publications.
 
-- Valliant, R., Dever, J. A., & Kreuter, F. (2013). Practical tools for designing and weighting survey samples (Vol. 1). New York: Springer.
+- Woolf, B. P. (2002). Loyalty marketing: The second act. Teal Books.
+
 
 # Citación y derechos de autor
 
@@ -954,6 +1149,6 @@ Este material ha sido creado por [Giovany Babativa-Márquez](https://github.com/
 
 Si se copia parcial o totalmente, debe citar la fuente como:
 
-> Babativa-Márquez, J.G. *Diapositivas del curso de muestreo probabilístico*. URL: https://jgbabativam.github.io/Muestreo-I/Semana1.html. 2024.
+> Babativa-Márquez, J.G. *Diapositivas del curso de inteligencia de negcios*. URL: https://jgbabativam.github.io/Muestreo-I/Semana1.html. 2024.
 
 
