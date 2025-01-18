@@ -423,7 +423,7 @@ knitr::include_graphics(here::here("images/Ciclo.png"))
 #| echo: true
 
 library(pacman)
-p_load(tidyverse, gganimate, gapminder, gifski, libpng, ImageMagick)
+p_load(tidyverse, gganimate, gapminder, gifski)
 
 datos <- gapminder |> 
          filter(year >= 1952) |> 
