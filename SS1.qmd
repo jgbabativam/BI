@@ -1178,7 +1178,7 @@ $$y_i = \beta_0 + \beta_1 x_{i1} + \cdots + \beta_p x_{ip} + \varepsilon_i \hspa
 
 ## Ejercicio
 
-<span style="color:#FF8D21"> **Tu turno**:</span> Usando la base **Satisfacción.sav**
+<span style="color:#FF8D21"> **Tu turno**:</span> Usando la base **Satisfation**
 
 1. Identifique los momentos del servicio
 2. Identifique los atributos
@@ -1188,6 +1188,59 @@ $$y_i = \beta_0 + \beta_1 x_{i1} + \cdots + \beta_p x_{ip} + \varepsilon_i \hspa
 4. Realice las matrices de acción.
      
 **INTERPRETE**
+
+
+## Solución
+
+
+La lectura del conjunto de datos se puede realizar directamente desde el repositorio de `GitHub`:
+
+<br>
+
+```{r}
+#| echo: true
+
+library(pacman)
+p_load(tidyverse, haven, broom, skimr)
+
+url <- "https://github.com/jgbabativam/BI/raw/main/datos/Satisfaction.sav"
+
+datos <- read_sav(url)
+```
+
+<br>
+
+Use los comandos `skim()` y `glimpse()` para explorar el conjuto de datos.
+
+
+## Modelo lineal
+
+
+```{r}
+#| echo: true
+
+desempe <- datos |> 
+           select(Pp1f, Pp2e, Pp3h, Pp4e) |> 
+           summarise(across(everything(), ~mean(.))) |> 
+           pivot_longer(everything(), names_to = "term", values_to = "desempeño")
+
+general <- lm(Pp5 ~ Pp1f + Pp2e + Pp3h + Pp4e - 1,
+              data = datos) |> 
+           tidy() |> 
+           mutate(score = estimate * (1 - p.value)) |> 
+           mutate(importancia = round(100 * score / sum(score), 1)) |> 
+           left_join(desempe, by = "term") |> 
+           select(term, importancia, desempeño)
+
+res <- general |> 
+       mutate(impacto = factor(case_when(
+                     importancia < mean(importancia) & desempeño > 5 ~ 1,  
+                     importancia < mean(importancia) & desempeño <= 5 ~ 2,
+                     importancia >=  mean(importancia) & desempeño <= 5 ~ 3,
+                     importancia >=  mean(importancia) & desempeño >  5 ~ 4),
+                     levels = 1:4, labels = c("Mantener", "Mejorar en el largo plazo",
+                                              "Accionar de inmediato", "Explotar")))
+```
 
 
 # GRACIAS! {background-color="#ddf3ff"}
