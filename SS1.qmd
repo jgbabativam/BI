@@ -1201,7 +1201,7 @@ La lectura del conjunto de datos se puede realizar directamente desde el reposit
 #| echo: true
 
 library(pacman)
-p_load(tidyverse, haven, broom, skimr)
+p_load(tidyverse, haven, broom, ggrepel, skimr)
 
 url <- "https://github.com/jgbabativam/BI/raw/main/datos/Satisfaction.sav"
 
@@ -1234,13 +1234,87 @@ general <- lm(Pp5 ~ Pp1f + Pp2e + Pp3h + Pp4e - 1,
 
 res <- general |> 
        mutate(impacto = factor(case_when(
-                     importancia < mean(importancia) & desempeño > 5 ~ 1,  
-                     importancia < mean(importancia) & desempeño <= 5 ~ 2,
-                     importancia >=  mean(importancia) & desempeño <= 5 ~ 3,
-                     importancia >=  mean(importancia) & desempeño >  5 ~ 4),
+                     importancia < mean(importancia) & desempeño > 6 ~ 1,  
+                     importancia < mean(importancia) & desempeño <= 6 ~ 2,
+                     importancia >=  mean(importancia) & desempeño <= 6 ~ 3,
+                     importancia >=  mean(importancia) & desempeño >  6 ~ 4),
                      levels = 1:4, labels = c("Mantener", "Mejorar en el largo plazo",
-                                              "Accionar de inmediato", "Explotar")))
+                                              "Acción Inmediata", "Explotar"))) |> 
+  mutate(names = c("Red de cajeros", "Servicio de Asesoría", "Servicio de caja", "Servicios Web"))
 ```
+
+## Matriz de acción
+
+```{r}
+#| echo: true
+#| 
+paletaAEML <- c("Acción Inmediata"= "red",
+               "Explotar"= "blue",
+               "Mantener"= "purple",
+               "Mejorar en el largo plazo"="darkorange")
+
+
+res |> 
+ggplot(aes(x= importancia, y= desempeño)) + 
+geom_point(aes(shape=impacto, color=impacto)) +
+labs(x="Importancia", y="Desempeño", title = "GENERAL") +   ylim(4.5,7) + xlim(9, 45) +
+geom_vline(xintercept = mean(res$importancia), color = "black", linetype = 2) +
+geom_hline(yintercept = 6.0, color = "black", linetype = 2) +
+geom_text_repel(aes(label = str_wrap(names, 30), colour = impacto), size=3.5, segment.color = "grey50") +
+scale_colour_manual(values = paletaAEML) +
+theme_bw() +
+theme(axis.text = element_text(face = "bold"), legend.position = "none") +
+theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5)) +
+annotate("label", x= 40, y = 5.0, label = "ACCIONAR DE FORMA \nINMEDIATA", size = 5, color = "red", label.size = 0, label.padding = unit(0.15, "lines"), label.r = unit(0.15, "lines"), fill = alpha("red", 0.1), fontface = "bold")+
+annotate("label", x= 13, y = 5.0, label = "MEJORAR EN EL\nLARGO PLAZO", size = 5, color = "darkorange", label.size = 0, label.padding = unit(0.15, "lines"), label.r = unit(0.15, "lines"), fill = alpha("darkorange", 0.1), fontface = "bold") +
+annotate("label", x= 13, y= 6.8, label = "MANTENER", size = 5, color = "purple", label.size = 0, label.padding = unit(0.15, "lines"), label.r = unit(0.15, "lines"), fill = alpha("purple", 0.1), fontface = "bold") +
+annotate("label", x= 40, y= 6.8, label = "EXPLOTAR", size = 5, color = "blue", label.size = 0, label.padding = unit(0.15, "lines"), label.r = unit(0.15, "lines"), fill = alpha("blue", 0.1), fontface = "bold") -> mapa 
+
+```
+
+## Matriz de acción
+
+```{r}
+mapa
+```
+
+## PROYECTO 2: SATISFACCIÓN
+
+<div style="text-align: justify;">
+
+* **VALOR**: 35%
+* **FECHA DE ENTREGA**: Próximo XXX.
+* **FORMA DE ENTREGA**: PLATAFORMA
+
+</div>
+
+. . . 
+
+**BRIEF**
+
+<div style="text-align: justify;">
+
+* **Objetivo**: Determinar la importancia de los momentos de verdad y atributos dentro de un target de clientes de un servicio.
+* **Target**: Clientes del servicio
+* **Cobertura**: La debe especificar el estudiante.
+
+</div>
+
+
+## PROYECTO 2: SATISFACCIÓN
+
+<div style="text-align: justify;">
+
+* **Muestra**: Al menos 30 respuestas (Calificación de 4.0). Por cada respuesta adicional 0.2 hasta completar una nota de máximo 10.
+* **Momentos**: Medir al menos 7 aspectos generales o del mismo momento de verdad.
+
+* **Resultados esperados**: Presentación comercial con: ficha técnica,  link del instrumento, Explicación del ciclo del servicio, Importancia de los momentos/atributos, Desempeño del modelo, Matriz de acción. Base de datos. Conclusiones y recomendaciones.
+
+</div>
+
+<span style="color:##81b622; font-size: 14px;">
+*La estética y forma de presentación tienen una ponderación en la nota
+</span>
 
 
 # GRACIAS! {background-color="#ddf3ff"}
