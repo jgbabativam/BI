@@ -1129,6 +1129,66 @@ library(countdown)
 countdown(minutes = 15, seconds = 00,  right = 0)
 ```
 
+## Satisfacción y Experiencia del Cliente
+
+
+::: columns
+::: {.column width="60%"}
+
+::: {.incremental}
+
+<br>
+
+Los modelos de satisfacción y lealtad son herramientas analíticas utilizadas para comprender y predecir el comportamiento de los clientes, evaluando cómo diferentes factores influyen en su satisfacción con un producto o servicio y en su disposición a permanecer fieles a una marca o empresa.
+
+:::
+
+:::
+
+::: {.column width="40%"}
+
+
+![](images/satisfactor.png){fig-align="center" width="100%"}
+
+:::
+
+:::
+
+## Esquema de medición
+
+
+![](images/satisfactor2.png){fig-align="center" width="100%"}
+
+## Matriz de acción
+
+
+![](images/satisfactor3.png){fig-align="center" width="100%"}
+
+## Formulación del modelo
+
+<div style="text-align: justify;">
+Sea $\mathcal{D}=\{(y_i, \mathbf{x}_i): i=1,\ldots,n\}$, con $y_i$ la $i$-ésima respuesta medida en una escala continua; $\mathbf{x}_i=(x_{i1},\ldots,x_{ip})^t \in \mathbb{R}^p$ es el vector de variables predictoras; y $n$ $(\gg p)$ es el tamaño de la muestra. El modelo lineal se especifica así:
+</div>
+
+. . .
+
+<br>
+
+$$y_i = \beta_0 + \beta_1 x_{i1} + \cdots + \beta_p x_{ip} + \varepsilon_i \hspace{0.25cm} \text{con  } \varepsilon_i \overset{\text{iid}}{\sim} \mathcal{N}(\mu, \sigma^2)$$
+
+## Ejercicio
+
+<span style="color:#FF8D21"> **Tu turno**:</span> Usando la base **Satisfacción.sav**
+
+1. Identifique los momentos del servicio
+2. Identifique los atributos
+3. Haga un modelo en cascada 
+  - Modelo general global con las generales de las dimensiones
+  - En cada dimensión su general con los respectivos atributos.
+4. Realice las matrices de acción.
+     
+**INTERPRETE**
+
 
 # GRACIAS! {background-color="#ddf3ff"}
 
