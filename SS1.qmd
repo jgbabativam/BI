@@ -886,6 +886,8 @@ La competencia debe ser evaluada con las características más similares (W, Col
 
 ![](images/enchufe.png){fig-align="center" width="100%"}
 
+[Encuesta](https://docs.google.com/forms/d/e/1FAIpQLSfgt2bJTr6G6us-rfhSs5JA6IvgzGwg4qSRZd8dzbtBwIHYcg/viewform?usp=sharing)
+
 ## Aplicación
 
 ![](images/curvaVW.png){fig-align="center" width="150%"}
