@@ -1286,8 +1286,9 @@ mapa
 <div style="text-align: justify;">
 
 * **VALOR**: 35%
-* **FECHA DE ENTREGA**: Próximo XXX.
-* **FORMA DE ENTREGA**: PLATAFORMA
+* **FECHA DE ENTREGA**: 29 de enero.
+* **FORMA DE ENTREGA**: Correo electrónico
+* **ASUNTO**: Trabajo 2 BI. Satisfacción
 
 </div>
 
@@ -1309,7 +1310,7 @@ mapa
 <div style="text-align: justify;">
 
 * **Muestra**: Al menos 30 respuestas (Calificación de 4.0). Por cada respuesta adicional 0.2 hasta completar una nota de máximo 10.
-* **Momentos**: Medir al menos 7 aspectos generales o del mismo momento de verdad.
+* **Momentos**: Medir al menos 5 aspectos generales o del mismo momento de verdad.
 
 * **Resultados esperados**: Presentación comercial con: ficha técnica,  link del instrumento, Explicación del ciclo del servicio, Importancia de los momentos/atributos, Desempeño del modelo, Matriz de acción. Base de datos. Conclusiones y recomendaciones.
 
