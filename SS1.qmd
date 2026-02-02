@@ -22,7 +22,7 @@ revealjs-plugins:
 
 <div style="text-align: justify;">
 
-PhD en Estadística, MSc en Analytics & Big Data, MSc en Estadística. Con 20 años de experiencia, actual director de analítica en el CNC, miembro del comité de expertos en pobreza en el DANE y consultor de la División de Estadística de la CEPAL. Ex-decano de la Facultad de Estadística USTA, ex-director de operaciones en el ICFES, PM CEV ...
+PhD en Estadística, MSc en Analytics & Big Data, MSc en Estadística. Con 20 años de experiencia, miembro del comité de expertos en pobreza en el DANE y consultor de la División de Estadística de la CEPAL. Ex-decano de la Facultad de Estadística USTA, ex-director de operaciones en el ICFES, ex-director de analítica en el CNC,PM CEV
 
 > Puedes encontrarme en:
 
@@ -36,22 +36,22 @@ PhD en Estadística, MSc en Analytics & Big Data, MSc en Estadística. Con 20 a�
 ## Reglas del juego
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="70%"}
 
 ::: {.incremental}
 
-- Viernes 17 de enero, de 5:30 p.m. a 9:30 p.m.
-- Sábado 18 de enero, de 8:00 a.m. a 12:00 p.m.
-- Martes 21 de enero, de 5:30 p.m. a 9:30 p.m.
-- Viernes 24 de enero, de 5:30 p.m. a 9:30 p.m.
-- Sábado 25 de enero, de 8:00 a.m. a 12:00 p.m.
-- Martes 28 de enero, de 5:30 p.m. a 9:30 p.m.
+- martes 03 de febrero, de 5:30 p.m. a 9:30 p.m.
+- miércoles 04 de febrero, de 5:30 p.m. a 9:30 p.m.
+- jueves 05 de febrero, de 5:30 p.m. a 9:30 p.m.
+- martes 10 de febrero, de 5:30 p.m. a 9:30 p.m.
+- miércoles 11 de febrero, de 5:30 p.m. a 9:30 p.m.
+- jueves 12 de febrero, de 5:30 p.m. a 9:30 p.m.
 
 :::
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="30%"}
 
 <br><br>
 
@@ -64,7 +64,7 @@ PhD en Estadística, MSc en Analytics & Big Data, MSc en Estadística. Con 20 a�
 ## Reglas del juego
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="70%"}
 
 ::: {.incremental}
 
@@ -74,13 +74,14 @@ PhD en Estadística, MSc en Analytics & Big Data, MSc en Estadística. Con 20 a�
 
     - **Proyecto precios**: 35%, se permite la entrega por parejas
     - **Proyecto satisfacción**: 35%, se permite la entrega por parejas
-    - **Proyecto de tablero de control/visualización**: 30%, trabajo individual
+    - **Proyecto de tablero de control/visualización**: 25%, trabajo individual
+    - **Asistencia al taller de inglés**: 5%, viernes 13 de febrero
 
 :::
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="30%"}
 
 <br><br>
 
@@ -441,6 +442,7 @@ Explore el conjunto de datos
 
 ```{r}
 #| echo: true
+#| eval: false
 
 plot <- ggplot(datos, aes(x = gdpPercap, y = lifeExp, size = poblacion, color = continent)) +
         geom_point(alpha = 0.7, show.legend = TRUE) +
