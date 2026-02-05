@@ -899,7 +899,7 @@ La competencia debe ser evaluada con las características más similares (W, Col
 <div style="text-align: justify;">
 
 * **VALOR**: 35%
-* **FECHA DE ENTREGA**: Próximo 25 de enero, hasta 11:59 pm
+* **FECHA DE ENTREGA**: Próximo 09 de febrero, hasta 11:59 pm
 * **FORMA DE ENTREGA**: j.babativamarquez@uniandes.edu.co
 * **ASUNTO**: Proyecto Precios
 
