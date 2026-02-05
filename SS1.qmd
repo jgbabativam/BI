@@ -923,7 +923,7 @@ La competencia debe ser evaluada con las características más similares (W, Col
 
 <div style="text-align: justify;">
 
-* **Muestra**: Al menos 20 respuestas (Nota máx. de 4.0). Por cada encuesta adicional se sumará 0.1.
+* **Muestra**: Al menos 30 respuestas (Nota máx. de 4.0). Por cada encuesta adicional se sumará 0.1.
 * **Preguntas (Análisis)**: Mínimo agrado, intención de compra y las 4 de precios.
 * **Resultados esperados**: Presentación comercial (Power Point, canvas, Beamer, etc.) con ficha técnica de la investigación (Investigar), contextualización del producto, gráfico VW,  rango de precios y conclusiones con recomendaciones. Debe entregar la Base de datos y el enlace con el que se realizó la encuesta.
 
@@ -1288,7 +1288,7 @@ mapa
 <div style="text-align: justify;">
 
 * **VALOR**: 35%
-* **FECHA DE ENTREGA**: 29 de enero.
+* **FECHA DE ENTREGA**: 16 de enero hasta las 11:59 pm.
 * **FORMA DE ENTREGA**: Correo electrónico
 * **ASUNTO**: Trabajo 2 BI. Satisfacción
 
@@ -1354,6 +1354,6 @@ Este material ha sido creado por [Giovany Babativa-Márquez](https://github.com/
 
 Si se copia parcial o totalmente, debe citar la fuente como:
 
-> Babativa-Márquez, J.G. *Diapositivas del curso de inteligencia de negcios*. URL: https://jgbabativam.github.io/Muestreo-I/Semana1.html. 2024.
+> Babativa-Márquez, J.G. *Diapositivas del curso de inteligencia de negocios*. URL: https://jgbabativam.github.io/BI/SS1.html 
 
 
