@@ -1288,7 +1288,7 @@ mapa
 <div style="text-align: justify;">
 
 * **VALOR**: 35%
-* **FECHA DE ENTREGA**: 16 de enero hasta las 11:59 pm.
+* **FECHA DE ENTREGA**: 16 de febrero hasta las 11:59 pm.
 * **FORMA DE ENTREGA**: Correo electrónico
 * **ASUNTO**: Trabajo 2 BI. Satisfacción
 
